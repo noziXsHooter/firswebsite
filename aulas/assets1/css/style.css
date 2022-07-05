@@ -1,0 +1,40 @@
+h1{
+    color: tomato;
+}
+.vermelho {
+    color: red;
+}
+
+.d-none{
+    display: none;
+}
+
+.d-flex {
+    display: flex;
+}
+
+p {
+    margin: 0;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-blue{
+    background-color: blue;
+    color: white;
+}
+
+body {
+    background-color:rgb(83, 14, 14);
+  }
+.center {
+    border: 5px solid #FFFF00;
+    display: flex;
+    margin-left: 20px;
+    justify-content: center;
+} 
+.forthehordefont{
+    font-family: 'MedievalSharp';font-size: 22px;
+}   

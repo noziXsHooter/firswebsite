@@ -1,0 +1,183 @@
+body {
+    background-color:rgb(36, 1, 1)!important;
+}
+h1{
+    color: tomato;
+}
+p {
+    margin: 0;
+}
+.vermelho {
+    color: red;
+}
+
+.d-none{
+    display: none;
+}
+
+.d-flex {
+    display: flex;
+}
+#cadastrocenter{
+    display: flex;
+    justify-content: center;
+}
+.body {
+    background-color:rgb(36, 1, 1);
+}
+.center {
+    display: flex;
+    margin: 30%;
+    justify-content: center;
+}
+.cardcenter {
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px;
+    margin-top: 8%; 
+}
+.form-control:focus {
+    border-color: #971700;
+    box-shadow: 0 0 0 0.2rem rgb(248, 25, 25);
+}
+::placeholder {
+    color: rgb(110, 1, 1) !important;
+}
+.form-check {
+    position: relative;
+}
+.form-check-input:checked {
+    background-color: rgb(110, 1, 1) !important;
+    border-color: rgb(110, 1, 1) !important;
+}
+.cardbackground {
+    background-color: black !important;
+ }   
+ .cardloginright {
+    display: flex !important;
+    margin-left: 415px !important;
+    justify-content: center !important;
+    border-color: rgb(100, 0, 0) !important;
+    border-width: 2px !important;
+    background: black !important;
+    box-shadow: 10px 10px 10px rgb(136, 3, 3) !important;
+}
+.cardcadastroright {
+    display: flex !important;
+    margin-left: 415px !important;
+    justify-content: center !important;
+    border-color: rgb(100, 0, 0) !important;
+    border-width: 2px !important;
+    background: black !important;
+    box-shadow: 10px 10px 10px rgb(136, 3, 3) !important;
+}    
+.imagebox {
+    max-width:100%;
+    max-height:100%;
+}   
+.cardshowbox{
+    width: 300px;
+    height: 100px;
+    padding: 0px;
+    background-color: black;
+    box-shadow: 10px 10px 40px rgb(136, 3, 3);
+} 
+.cardlogin{
+    width: 300px;
+    height: 100px;
+    padding: 0px;
+    background-color: black;
+    box-shadow: 10px 10px 40px rgb(136, 3, 3);
+}
+.backgroundblack{
+    background-color: black;
+}  
+.backgroundredbutton{
+    background: rgb(136, 3, 3);
+    display: flex;
+    margin-left: 80px;
+    justify-content: center;
+
+}.logintext{
+    font-family: 'MedievalSharp';
+    font-size: 100%;
+    color:rgb(167, 6, 6);
+}
+.forthehordefont{
+    font-family: 'MedievalSharp';
+    font-size: 250%;
+    color:rgb(167, 6, 6);
+}
+.buttoncolor{
+    --bs-btn-bg: rgb(167, 6, 6) !important;
+}
+.h1formulario{
+    font-family: 'MedievalSharp';
+    font-size: 250%;
+    color:rgb(167, 6, 6);
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.formularylabel{
+    font-family: 'MedievalSharp';
+    font-size: 100%;
+    margin-left: 10px;
+    width: 620px;
+    border-color: rgb(167, 6, 6)!important;
+    color:rgb(167, 6, 6);
+    margin-left: 8%;
+}
+
+.formularyinput{
+    font-family: 'MedievalSharp';
+    width: 43% !important;
+    font-size: 100%;
+    border-color:rgb(167, 6, 6);
+    color: rgb(167, 6, 6)!important;
+    border: 2px solid rgb(167, 6, 6);
+}
+.formularyinputformulary{
+    font-family: 'MedievalSharp';
+    font-size: 100%;
+    border-color:rgb(167, 6, 6);
+    color: rgb(167, 6, 6);
+    border: 2px solid rgb(167, 6, 6);
+}
+#idade{
+    width: 300px; 
+    border-color: red;
+    color: rgb(167, 6, 6);
+}
+.ul{
+    margin-left: 30px;
+    width: 200px;
+}
+.allformulary{
+    font-size: 13px;
+    margin-left: 20px;
+    font-family: 'MedievalSharp';
+    color:rgb(167, 6, 6);
+    accent-color: red;
+}
+#formularydata{
+    font-size: 25px !important; 
+    background-color: black !important; 
+    padding: 10px !important; 
+    border-width: 3px !important;
+} 
+#h2melhorar{
+    font-size: 18px;
+    width:250px;
+    margin-left:5px; 
+    background-color: black; 
+    padding: 10px; 
+    border-width: 1px;
+}#h2opiniao{
+    font-size: 18px;
+    width:100px;
+    margin-left:5px; 
+    background-color: black; 
+    padding: 10px; 
+    border-width: 1px;
+}  

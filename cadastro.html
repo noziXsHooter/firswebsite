@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- CSS only -->
+    <link href='https://fonts.googleapis.com/css?family=MedievalSharp' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!-- <script src="assets/js/script.js"></script> -->
+    <script src="assets/js/script.js"></script>
+    
+    
+    <title>For the Horde! - Cadastro</title>
+
+</head>
+
+<body>
+
+    <div class="body"></div>
+
+        <div class="card mb-3 cardcenter cardbackground cardshowbox" style="height:600px; width: 800px;">
+            <div class="row align-items-center vh-100">
+            <div class="col-md-6 imagebox">
+                <img src="img/horde.jpeg" class="imagebox" alt="Horde">
+            </div>
+            <div class="dropdown-menu cardcadastroright" style="height:560px; width: 350px;">
+                <form action ="exibirdados.php" id="form" class="px-4 py-5" style="width: 350px">
+
+                    <!-- MB-? SAO OS ESPACOS ENTRE OS ELEMENTOS -->
+                    <div id="cadastrocenter" class="forthehordefont mb-4">
+                        <name>Cadastro</name>
+                    </div>
+
+                    <div class="mb-3 formularylabel logintext">
+                        <label for="nomec" class="form-label input">Nome: </label>
+                        <input type="text" class="form-control formularyinput" name="nomec" id="nomec" placeholder="Nome">
+                        <p class="erro-nomec d-none">O nome é obrigatória</p>
+                    </div>
+
+                    <div class="mb-3 formularylabel logintext">
+                        <label for="sobrenomec" class="form-label input">Sobrenome: </label>
+                        <input type="text" class="form-control formularyinput" name="sobrenomec" id="sobrenomec" placeholder="Sobrenome">
+                    </div>
+
+                    <div class="mb-3 formularylabel logintext">
+                        <label for="emailc" class="form-label logintext">Email</label>
+                        <input type="email" name="emailc" id="emailc" class="form-control formularyinput" placeholder="exemplo@exemplo.com">
+                        <p class="erro-emailc d-none">Email é obrigatório</p>
+                    </div>
+                    <div class="mb-3 formularylabel logintext">
+                        <label for="senhac" class="form-label logintext">Senha</label>
+                        <input type="password" name="senhac" id="senhac" class="form-control formularyinput" placeholder="Senha" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Deve conter pelo menos um número, uma letra maiúscula e minúscula, e pelo menos 8 ou mais caracteres.">
+
+                        <p class="erro-senhac d-none">A senha é obrigatória</p>
+                    </div>
+                    <div class="d-flex mb-5">
+                        <button id="submit" type="submit" value="submit" class="col-6 btn buttoncolor btn-danger backgroundredbutton">Cadastrar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+</body>
+
+</html>

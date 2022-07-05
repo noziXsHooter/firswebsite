@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=MedievalSharp' rel='stylesheet'>
+    <title>Aula 4</title>
+    <style>
+      .vermelho{
+          color: red;
+      }
+      .d-none{
+          display: none;
+      }
+
+      /* .forthehordefont{
+            font-family: Brush Script MT, Brush Script Std, cursive;
+      } */
+    </style>
+</head>
+
+<body>
+    <div class="forthehordefont">
+      <h1>FOR THE HORDE!</h1>
+    </div>
+
+    <form action="inserir.php" method="post">
+        <div class="d-flex">
+            <input type="text" name="nome" id="nome" placeholder="Nome">
+            <p class="erro-nome vermelho d-none">Nome é obrigatório</p>
+        </div>
+        <div class="d-flex">
+            <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+            <p class="erro-sobrenome vermelho d-none">Sobrenome é obrigatório</p>
+        </div>
+        <div class="d-flex">
+            <input type="email" name="email" id="email" placeholder="Email">
+            <p class="erro-email vermelho d-none">Email é obrigatório</p>
+        </div>
+        <div class="d-flex">
+            <input type="password" name="senha" id="senha" placeholder="Senha">
+            <p class="erro-senha vermelho d-none">Senha é obrigatória</p>
+        </div>
+        <div class="d-flex">
+            <button id="btn-submit" type="submit">Enviar</button>
+        </div>
+    </form>
+    <div class="row">
+  <div class="col-6 btn btn-danger">.g-col-6</div>
+  <div class="col-6 btn btn-success">.g-col-6</div>
+
+  <div class="col-6">.g-col-6</div>
+  <div class="col-6">.g-col-6</div>
+  </div>
+<select class="form-select" aria-label="Default select example">
+  <option selected>Open this select menu</option>
+  <option value="1">One</option>
+  <option value="2">Two</option>
+  <option value="3">Three</option>
+</select>
+
+<div class="container">
+  <div class="row">
+    <div class="col">col</div>
+    <div class="col">col</div>
+    <div class="col">col</div>
+    <div class="col">col</div>
+  </div>
+  <div class="row">
+    <div class="col-8 bg-green">col-8</div>
+    <div class="col-4 bg-blue">col-4</div>
+  </div>
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

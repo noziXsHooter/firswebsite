@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- CSS only -->
+    <link href='https://fonts.googleapis.com/css?family=MedievalSharp' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="assets/js/script.js"></script>
+    <title>For the Horde! - Feedback</title>
+    <style>
+        body {
+                background-color:rgb(36, 1, 1);
+            }
+        .cardbackground {
+
+           background-color: black;
+        }    
+        .center {
+            display: flex;
+            margin-left: 50px;
+            justify-content: center;
+        }
+        .cardcenter {
+            margin: 0 auto; 
+            float: none; 
+            margin-bottom: 10px;
+            margin-top: 8%; 
+        }
+        .cardloginright {
+            display: flex;
+            margin-left: 415px;
+            justify-content: center;
+            border-color: rgb(100, 0, 0);
+            border-width: 2px;
+            background: black;
+            box-shadow: 10px 10px 10px rgb(136, 3, 3);
+        }          
+        .imagebox {
+            max-width:100%;
+            max-height:100%;
+        }
+        .cardshowbox{
+            width: 300px;
+            height: 100px;
+            padding: 0px;
+            background-color: black;
+            box-shadow: 10px 10px 40px rgb(136, 3, 3);
+        }
+        .cardlogin{
+            width: 300px;
+            height: 100px;
+            padding: 0px;
+            background-color: black;
+            box-shadow: 10px 10px 40px rgb(136, 3, 3);
+        }
+        .backgroundblack{
+            background-color: black;
+        }
+        .backgroundredbutton{
+            background: rgb(136, 3, 3);
+            display: flex;
+            margin-left: 80px;
+            justify-content: center;
+
+        }
+        .logintext{
+            font-family: 'MedievalSharp';
+            font-size: 100%;
+            color:rgb(167, 6, 6);
+        }
+        .forthehordefont{
+            font-family: 'MedievalSharp';
+            font-size: 250%;
+            color:rgb(167, 6, 6);
+        }
+        .h1formulario{
+            font-family: 'MedievalSharp';
+            font-size: 250%;
+            color:rgb(167, 6, 6);
+            text-align: center;
+            margin-top: 6%;
+            margin-bottom: 6%;
+        }
+        .formularylabel{
+            font-family: 'MedievalSharp';
+            font-size: 100%;
+            margin-left: 30px;
+            width: 700px;
+            border-color: rgb(167, 6, 6);
+            color:rgb(167, 6, 6);
+        }
+        .formularyinput{
+            font-family: 'MedievalSharp';
+            font-size: 100%;
+            border-color:rgb(167, 6, 6);
+            color: rgb(167, 6, 6);
+            border: 2px solid rgb(167, 6, 6);
+        }
+        .ul{
+            margin-left: 30px;
+            width: 200px;
+        }
+        .allformulary{
+            font-size: 13px;
+            margin-left: 20px;
+            font-family: 'MedievalSharp';
+            color:rgb(167, 6, 6);
+        } 
+
+        </style>
+</head>
+
+
+<!-- CORPO DO FEEDBACK -->
+<body class="body">
+    <div class=""></div>
+        <div class="card mb-2 cardcenter cardbackground cardshowbox" style="height:1120px; width: 800px;">
+            <div class="h1formulario">
+
+            <div>
+                <p>
+                    <h2 class="card mb-2 formularylabel" style="font-size: 25px; background-color: black; padding: 10px; border-width: 3px">Dados do Formulário: </h2>
+                </p>
+            </div>
+
+
+            <div class="formularylabel" style="font-size: 90%; height: 600px">
+            <?php
+                
+                $nomec = null;
+                $sobrenomec = null;
+                $emailc = null;
+                $senhac = null;
+
+
+                if(isset($_POST['submit'])){
+
+                    $nomec = $_POST['nomec'];
+                    $sobrenomec = $_POST['sobrenomec'];    
+                    $emailc = $_POST['emailc'];
+                    $senhac = $_POST['senhac'];
+                
+                    if(isset($_POST['nomec'])){
+
+                            echo "<p>Nome: {$nomec}</p>";
+                    }
+                    if(isset($_POST['$sobrenomec'])){
+
+                            echo "<p>Sobrenome: {$sobrenome}</p>";
+                    }
+                    if(isset($_POST['emailc'])){
+
+                            echo "<p>Email: {$emailc}</p>";
+                    }
+                    if(isset($_POST['senhac'])){
+
+                        echo "<p>Senha: **********</p>";
+                    }
+
+            
+                }
+
+            ?> 
+            </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+            <!-- JavaScript Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+            <script src="assets/js/script.js"></script>
+
+</body>
+</html>
